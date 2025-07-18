@@ -3,17 +3,11 @@
 ## Installation
 
 ```bash
-bun install
+npm install
 ```
-
-> [!TIP]
-> Or `npm install` in Node.js
 
 ## Viewing
 
 ```bash
-bun docs:dev
+npm run docs:dev
 ```
-
-> [!TIP]
-> Or `npm run docs:dev` in Node.js
