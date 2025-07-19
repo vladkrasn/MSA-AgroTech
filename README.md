@@ -1,5 +1,7 @@
 # Learning project
 
+Node.js 20.19+
+
 ## Installation
 
 ```bash

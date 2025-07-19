@@ -5,8 +5,7 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       configureDiagramsPlugin(md, {
-        diagramsDir: ".vitepress/diagrams",
-        publicPath: ".vitepress/diagrams",
+        diagramsDir: "./diagrams"
       });
     },
   },
@@ -106,4 +105,7 @@ export default defineConfig({
 			},
 		],
 	},
+  vite: {
+    publicDir: '.vitepress/diagrams', // So it's served from /diagrams
+  },
 });
