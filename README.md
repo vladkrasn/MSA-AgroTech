@@ -16,4 +16,4 @@ npm run docs:dev
 
 ## Diagram .SVGs
 
-They are located in `.vitepress/diagrams`
+They are located in `./diagrams`
