@@ -85,20 +85,7 @@ export default defineConfig({
 						text: "Task4",
 						base: "/Task4",
             items: [
-              {
-                text: "Solution 1",
-                base: "/Task4/Solution1",
-                items: [
-                  { text: "ADR", link: "/adr" },
-                ]
-              },
-              {
-                text: "Solution 2",
-                base: "/Task4/Solution2",
-                items: [
-                  { text: "ADR", link: "/adr" },
-                ]
-              },
+              { text: "Final ADR", link: "/adr" },
             ]
 					},
 				],
